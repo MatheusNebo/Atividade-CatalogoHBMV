@@ -5,7 +5,7 @@ CREATE TABLE Filme(
     duracao INT(3) NOT NULL,
     diretor VARCHAR(120) NULL,
     class_indicativa VARCHAR(6) NOT NULL,
-    data_lancamento DATE NOT NULL,
+    data_lancamento INT(4) NOT NULL,
     cartaz LONGBLOB NULL,
     cartaz_tipo VARCHAR(50) NULL -- formato da imagem (png, jpg, etc.)
 );
@@ -18,7 +18,7 @@ CREATE TABLE Serie(
     episodios INT(6) NOT NULL,
     diretor VARCHAR(120) NULL,
     class_indicativa VARCHAR(6) NOT NULL,
-    data_lancamento DATE NOT NULL,
+    data_lancamento INT(4) NOT NULL,
     cartaz LONGBLOB NULL,
     cartaz_tipo VARCHAR(50) NULL -- formato da imagem (png, jpg, etc.)
 );
