@@ -19,7 +19,6 @@
             <input type="hidden" name="tipo" value="serie"><br>
             <input type="text" name="titulo" placeholder="Título da Série" required><br>
             <input type="text" name="genero" placeholder="Gênero"><br>
-            <input type="number" name="duracao" placeholder="Duração (min)"><br>
             <input type="text" name="diretor" placeholder="Diretor"><br>
             <input type="text" name="classificacao" placeholder="Classificação (ex: 14+)"><br>
             <input type="number" name="temporadas" placeholder="Número de Temporadas"><br>
